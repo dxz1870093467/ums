@@ -1,0 +1,10 @@
+###配置Thymeleaf转发视图
+spring:
+  thymeleaf:
+    ###停止使用thymeleaf的缓存
+    cache: false
+    #content-type: text/html
+    #mode: LEGACYHTML5
+    ###配置spring的转路径
+    prefix: classpath:/view/
+    suffix: .html
